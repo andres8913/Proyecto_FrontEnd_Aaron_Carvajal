@@ -1,3 +1,19 @@
-console.log("hola");
+const processform = (event) => {
+    
+    event.preventDefault();
 
-var dataBase = window.indexedDB.open("myDataBase",1);
+    var fName = document.getElementById("firstName").value;
+    var sName = document.getElementById("secondName").value;
+
+    var user = {
+        firstName: fName,
+        secondName: sName,
+    }
+
+    console.log(user);
+
+    var dataBase = window.indexedDB.open("bdFront",1);  
+
+}
+var form = document.getElementById("contactForm");
+form.addEventListener("submit", processform);
