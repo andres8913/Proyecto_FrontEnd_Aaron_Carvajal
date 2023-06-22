@@ -1,0 +1,85 @@
+.principal {
+    display: flex;
+    height: 620px;
+    flex-direction: column;
+}
+
+.headContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu {
+    height: 50px;
+    background-color:#85929E;
+}
+
+#headMenu {
+    margin: 150px;
+}
+
+#personalDate {
+    display: flex;
+    height: 130px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#headInformation1 {
+    width: 200px;
+}
+
+#headInformation2 {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+}
+
+#nEt {
+    flex: 1;
+    padding: 1.5%;
+}
+
+.bodyContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#skills {
+    flex: 3;
+    height: 430px;
+}
+
+.personalInformation {
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    margin: 1%;
+}
+
+#pI {
+    height: 80px;
+    padding: 1%;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+}
+
+#photo {
+    border-style: dashed;
+    flex: 2;
+}
+
+#form {
+    border-style: double;
+    flex: 3;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    text-align: center;
+}
