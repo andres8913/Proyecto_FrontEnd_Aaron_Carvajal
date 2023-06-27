@@ -11,7 +11,7 @@
 
 #menu {
     height: 50px;
-    background-color:#85929E;
+    background-color:#1dc674;
 }
 
 #headMenu {
@@ -32,40 +32,45 @@
 #headInformation2 {
     display: flex;
     width: 600px;
-    flex-direction: column;
+    flex-direction: column;     
 }
 
 #nEt {
+    display: flex;
+    padding: 10px;
     flex: 1;
-    padding: 1.5%;
+    line-height: 0;
 }
 
 .bodyContainer {
     display: flex;
     flex-direction: row;
-}
+ }
 
 #skills {
+    display: flex;
     flex: 3;
-    height: 430px;
+    height: 380px;
+    align-items:end;
+    text-align:justify;
 }
 
 .personalInformation {
     display: flex;
     flex: 5;
     flex-direction: column;
-    margin: 1%;
+    margin: 3%;
 }
 
 #pI {
-    height: 80px;
-    padding: 1%;
+    padding: 4%;
 }
 
 .formContainer {
     display: flex;
     flex-direction: row;
     height: 550px;
+    background-color: #a4fee4;
 }
 
 #photo {
