@@ -3,6 +3,7 @@
     height: 620px;
     flex-direction: column;
     background-color:#D5D8DC;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
 
 .headContainer {
@@ -40,7 +41,7 @@
     display: flex;
     padding: 10px;
     flex: 1;
-    line-height: 0;
+    line-height: 0;   
 }
 
 .bodyContainer {
@@ -51,7 +52,7 @@
 #skills {
     display: flex;
     flex: 3;
-    height: 380px;
+    height: 400px;
     align-items:end;
     text-align:justify;
 }
@@ -64,7 +65,15 @@
 }
 
 #pI {
+    display: flex;
     padding: 4%;
+    text-align:justify;
+    height: 75px;
+    align-items:flex-start;
+}
+
+.pIc{
+ margin-top: -30px;
 }
 
 .formContainer {
@@ -80,6 +89,12 @@
     padding: 20px;
 }
 
-form {
-    text-align: center;
+#footer1{
+    position: relative;
+    right: 100px;
+}
+
+#footer2{
+    position: relative;
+    left: 90px;
 }
