@@ -1,29 +1,23 @@
+
 function processform(event) {
     event.preventDefault();
 
-    var fName = document.getElementById("firstName").value;
-    var sName = document.getElementById("secondName").value;
-    var flName = document.getElementById("firstLastname").value;
-    var slName = docuemnt.getElementById("secondLastname").value;
-    var nId = document.getElementById("numberId").value;
-    var dBorn = document.getElementById("dateBorn").value;
+    var names = document.getElementById("Names").value;
+    var lastname = document.getElementById("lastName").value;
     var lLine = document.getElementById("landLine").value;
     var cPhone = document.getElementById("cellPhone").value;
-    var oAddres = docuemnt.getElementById("officeAddres").value;
+    var oAddres = document.getElementById("officeAddress").value;
     var Email = document.getElementById("email").value;
 
     var user = {
-        firstName: fName,
-        secondName: sName,
-        firstLastname: flName,
-        secondLastname: slName,
-        numberId: nId,
-        dateBorn: dBorn,
+        Names: names,
+        lastName: lastname,
         landLine: lLine,
         cellPhone: cPhone,
-        officeAddres: oAddres,
+        officeAddress: oAddres,
         email: Email,
-    };
+    }
+
 
     console.log(user);
     var dataBase = window.indexedDB.open("bdFront", 5);
@@ -40,10 +34,14 @@ function processform(event) {
 
     dataBase.onupgradeneeded = (event) => {
         let db = event.target.result;
-        var createObjectData = db.createObjectStore("users", { keyPath: "firstName" });
+        var createObjectData = db.createObjectStore("users", { keyPath: "Names" });
     };
 
 
 }
 var form = document.getElementById("contactForm");
 form.addEventListener("submit", processform);
+
+
+
+
