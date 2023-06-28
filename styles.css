@@ -20,6 +20,25 @@
     margin: 150px;
 }
 
+#devs{
+    display: flex;
+    height: 600px;
+}
+
+#dev{
+    display: flex;
+    flex: 1;
+    border-style: double;
+    justify-content:center;
+}
+
+#if{
+    display: flex;
+    border-style: dashed;
+    background-color:rgb(196, 42, 42);
+    margin-left: ;
+}
+
 #personalDate {
     display: flex;
     height: 130px;
