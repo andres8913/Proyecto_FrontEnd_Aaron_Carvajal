@@ -9,6 +9,11 @@ function processform(event) {
     var oAddres = document.getElementById("officeAddress").value;
     var Email = document.getElementById("email").value;
 
+    if (names === '' || lastname === '' || lLine === '' || cPhone === '' || oAddres === '' || Email === '') {
+        alert("Por favor, complete todos los campos del formulario.");
+        return;
+    }
+
     var user = {
         Names: names,
         lastName: lastname,
@@ -18,7 +23,7 @@ function processform(event) {
         email: Email,
     }
 
-
+   
     console.log(user);
     var dataBase = window.indexedDB.open("bdFront", 5);
 
@@ -38,9 +43,12 @@ function processform(event) {
     };
 
 
-}
+ }
 var form = document.getElementById("contactForm");
 form.addEventListener("submit", processform);
+
+
+
 
 
 
