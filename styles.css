@@ -2,8 +2,8 @@
     display: flex;
     height: 620px;
     flex-direction: column;
-    background-color:#D5D8DC;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    background-color: #D5D8DC;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .headContainer {
@@ -13,24 +13,23 @@
 
 #menu {
     height: 50px;
-    background-color:#85929E;
+    background-color: #85929E;
 }
 
 #headMenu {
     margin: 150px;
 }
 
-#devs{
+#devs {
     display: flex;
     height: 600px;
 }
 
-#dev{
+#dev {
     display: flex;
     flex: 1;
-    border-style: double;
-    justify-content:center;
-    flex-direction:column;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -48,27 +47,27 @@
 #headInformation2 {
     display: flex;
     width: 600px;
-    flex-direction: column;     
+    flex-direction: column;
 }
 
 #nEt {
     display: flex;
     padding: 10px;
     flex: 1;
-    line-height: 0;   
+    line-height: 0;
 }
 
 .bodyContainer {
     display: flex;
     flex-direction: row;
- }
+}
 
 #skills {
     display: flex;
     flex: 3;
     height: 400px;
-    align-items:end;
-    text-align:justify;
+    align-items: end;
+    text-align: justify;
 }
 
 .personalInformation {
@@ -81,13 +80,13 @@
 #pI {
     display: flex;
     padding: 4%;
-    text-align:justify;
+    text-align: justify;
     height: 75px;
-    align-items:flex-start;
+    align-items: flex-start;
 }
 
-.pIc{
- margin-top: -30px;
+.pIc {
+    margin-top: -30px;
 }
 
 .formContainer {
@@ -103,12 +102,12 @@
     padding: 20px;
 }
 
-#footer1{
+#footer1 {
     position: relative;
     right: 100px;
 }
 
-#footer2{
+#footer2 {
     position: relative;
     left: 90px;
 }
