@@ -24,21 +24,25 @@
     <div class="formContainer">
         <div id="form"><h1>Porfavor Déjanos Tus Datos y Nos Pondremos En Contacto</h1>
             <form id="contactForm">
-                <label for="Names">Nombres:</label><br>
-                <input type="text" id="Names" placeholder="Ingrese sus Nombres"><br><br>
-                <label for="lastName">Apellidos:</label><br>
-                <input type="text" id="lastName" placeholder="Ingrese sus Apellidos"><br><br>
-                <label for="landLine">Telefono Fijo:</label><br>
-                <input type="tel" id="landLine" placeholder="Ingrese Numero Teléfono"><br><br>
-                <label for="cellPhone">Telefono Celular:</label><br>
-                <input type="tel" id="cellPhone" placeholder="Ingrese Numero Celular"><br><br>
-                <label for="officeAddress">Dirreción Oficina:</label><br>
-                <input type="text" id="officeAddress" placeholder="Ingrese Dirección Oficina"><br><br>
+                <label for="numeroIdentificacion">Numero Identificacion:</label><br>
+                <input type="number" id="numeroIdentificacion" placeholder="Ingrese Numero Identificacion"><br><br>
+                <label for="nombres">Nombres:</label><br>
+                <input type="text" id="nombres" placeholder="Ingrese sus Nombres"><br><br>
+                <label for="apellidos">Apellidos:</label><br>
+                <input type="text" id="apellidos" placeholder="Ingrese sus Apellidos"><br><br>
+                <label for="tipoIdentificacion">Tipo Identificacion:</label><br>
+                <input type="text" id="tipoIdentificacion" placeholder="Ingrese Tipo Identificacion"><br><br>                
+                <label for="telefono">Numero Telefono:</label><br>
+                <input type="number" id="telefono" placeholder="Ingrese Numero Telefono"><br><br>
                 <label for="email">Correo Electrónico:</label><br>
                 <input type="email" id="email" placeholder="Ingrese Correo Electronico"><br><br>
+                <label for="profesion">Profesion:</label><br>
+                <input type="text" id="profesion" placeholder="Ingrese Profesion"><br><br>
+                <label for="rol">Rol:</label><br>
+                <input type="text" id="rol" placeholder="Ingrese Rol"><br><br>
                  
                 <button id="footer1" type="reset">Limpiar</button>
-                <button id="footer2">Enviar</button>
+                <button id="footer2" onclick="saveCustomer()">Enviar</button>
             </form>
         </div>
     </div>
