@@ -71,3 +71,21 @@ console.log(customer);
 
 return true;
 }
+
+function getCustomers(){
+
+    let url = "http://localhost:8000/api/customers";
+    let params = {
+        method: "GET",
+        headers:{
+            "Content-Type": "application/json"
+        },
+    }
+
+    fetch(url,params).then((response) =>{
+        console.log(response);
+        console.log(response.json());
+    });
+
+    return true;
+}
