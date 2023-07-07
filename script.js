@@ -87,5 +87,10 @@ function getCustomers(){
         console.log(response.json());
     });
 
-    return true;
-}
+   return true; 
+
+    };
+
+  
+
+
